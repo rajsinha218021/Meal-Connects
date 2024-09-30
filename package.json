@@ -1,0 +1,29 @@
+{
+  "name": "try",
+  "version": "1.0.0",
+  "description": "Meal Connect is a comprehensive solution aimed at addressing the critical issue of food wastage by creating a platform that connects local food businesses, such as restaurants and grocery stores, with nearby charities or food banks. The system allows businesses to track surplus food availability, schedule pickups, and optimize distribution to minimize food wastage while aiding those in need.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.18.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
